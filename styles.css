@@ -1,12 +1,27 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Blue text for readability */
     margin: 0;
     padding: 0;
     height: 100vh;
     overflow-x: hidden;
+    background: linear-gradient(45deg, #ff6f61, #ff3d00, #e63946, #1d3557); /* Multicolor gradient */
+    background-size: 400% 400%; /* Allow the gradient to expand */
+    animation: gradientAnimation 15s ease infinite; /* Gradient animation */
+    color: #e0e0e0; /* Light grey text for readability */
+}
+
+/* Animation for gradient effect */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Header */
@@ -21,6 +36,7 @@ header {
     z-index: 1000;
 }
 
+/* Navigation bar styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -50,6 +66,7 @@ section {
     padding: 100px 20px; /* Added top padding to avoid overlap with header */
     text-align: center;
     animation: fadeInUp 1s ease-in-out; /* Added animation for smoother feel */
+    background-color: transparent; /* Ensures sections have no background */
 }
 
 section h1,
