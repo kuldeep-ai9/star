@@ -297,3 +297,25 @@ body.dark-mode {
     cursor: pointer;
     border-radius: 5px;
 }
+.sidebar {
+    position: fixed;
+    top: 20%;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #ff5722;
+}
