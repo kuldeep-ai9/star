@@ -239,7 +239,16 @@ footer {
         margin: 10px;
     }
 }
+.skill {
+    margin: 15px 0;
+}
 
+.progress-bar {
+    height: 20px;
+    background-color: #76c7c0;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
 
 #backToTop {
     position: fixed;
