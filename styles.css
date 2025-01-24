@@ -334,3 +334,11 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    height: 100%; /* Full height */
+    background-color: #1e2a47; /* Dark blue background */
+}
+
