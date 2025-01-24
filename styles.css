@@ -236,13 +236,13 @@ footer {
     }
 }
 
-/* Remove the existing background */
+/* Remove the existing background and apply a dark blue color */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #121212; /* Set a solid dark background (optional) */
+    background-color: #1e2a47; /* Dark blue background */
     color: #e0e0e0; /* Light grey text for readability */
     overflow-x: hidden;
 }
@@ -315,4 +315,3 @@ footer {
         transform: translateY(0);
     }
 }
-
