@@ -258,3 +258,10 @@ footer {
 #backToTop:hover {
     background-color: #e64a19;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
