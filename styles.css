@@ -236,15 +236,30 @@ footer {
     }
 }
 
-/* Remove the existing background and apply a dark blue color */
+/* Gradient Background (Light to Dark Blue) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #1e2a47; /* Dark blue background */
+    background: linear-gradient(135deg, #5f6caf, #1e2a47); /* Light blue to dark blue gradient */
+    background-size: 400% 400%; /* Ensures the gradient moves */
+    animation: gradientAnimation 15s ease infinite; /* Animation for smooth transition */
     color: #e0e0e0; /* Light grey text for readability */
     overflow-x: hidden;
+}
+
+/* Animation for the gradient effect */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* Other sections and elements */
