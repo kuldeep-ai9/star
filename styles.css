@@ -341,4 +341,14 @@ html {
     height: 100%; /* Full height */
     background-color: #1e2a47; /* Dark blue background */
 }
-
+/* Preferred animation approach using transform */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); /* This uses hardware acceleration */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
