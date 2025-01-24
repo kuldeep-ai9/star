@@ -258,3 +258,20 @@ footer {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: none;
+    cursor: pointer;
+}
+
+#backToTop:hover {
+    background-color: #e64a19;
+}
