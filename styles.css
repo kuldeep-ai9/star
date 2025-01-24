@@ -330,3 +330,7 @@ footer {
         transform: translateY(0);
     }
 }
+/* Enable smooth scrolling across the entire page */
+html {
+    scroll-behavior: smooth;
+}
